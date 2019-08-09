@@ -111,7 +111,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: fdf0dfe43a570d54c8900149116b43e4, type: 2}
 --- !u!1 &108856809
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,6 +191,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 5121d05addaa9da4da890fb1b9e316a6, type: 3}
       propertyPath: m_Name
       value: End_Room (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5121d05addaa9da4da890fb1b9e316a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5121d05addaa9da4da890fb1b9e316a6, type: 3}
       propertyPath: m_LocalScale.x
@@ -298,7 +302,7 @@ Transform:
   - {fileID: 920310877}
   - {fileID: 274483095}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &355523040
 GameObject:
@@ -391,7 +395,7 @@ Transform:
   m_Children:
   - {fileID: 383236186}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &383236185
 GameObject:
@@ -882,7 +886,7 @@ Transform:
   m_Children:
   - {fileID: 1375198791}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &920310876
 GameObject:
